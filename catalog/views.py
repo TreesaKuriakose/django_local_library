@@ -4,6 +4,7 @@ from .models import Book
 
 from django.shortcuts import get_object_or_404
 
+
 class BookListView(generic.ListView):
     model = Book
     paginate_by = 1

@@ -6,6 +6,7 @@ from django.db.models.functions import Lower # Returns lower cased value of fiel
 import uuid 
 
 
+
 class Genre(models.Model):
     """Model representing a book genre."""
     name = models.CharField(
